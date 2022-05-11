@@ -120,11 +120,11 @@ header {
     margin: 0 auto;
     justify-items: start; }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 768px) {
   .main .sectionNosotras .parrafoNosotras {
     font-size: 20px;
     text-align: center;
-    margin: 15px 0px; } }
+    margin: 15px 10px; } }
 
 .main {
   color: #423732;
@@ -145,7 +145,7 @@ header {
       color: #92716c;
       font-weight: bold; }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 768px) {
   .main {
     display: block; }
     .main .sectionNosotras {
@@ -158,7 +158,7 @@ header {
   .main .mainSection .mainParrafo {
     font-size: 20px;
     text-align: center;
-    margin: 15px 0px; } }
+    margin: 15px 10px; } }
 
 .sectionProductos {
   display: grid;
@@ -253,10 +253,3 @@ header {
       margin: 5%; }
     .formContacto .iframe {
       margin: 20px 3px; } }
-
-/*@media screen and (max-width: 760px){
-    .sectionNosotras {
-        display: grid;
-        grid-template-columns: 100%;
-    }
-}*/
