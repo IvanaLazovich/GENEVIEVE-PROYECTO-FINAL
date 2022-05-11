@@ -32,58 +32,69 @@
 
 
 
-    <main class="mainSection">
+    <main class="main">
         <h4 class="mainTitulo">Contacto</h4>
     </main>
 
     <section class="formContacto">
-        <form action="" method="" enctype="">
+        <div class="formulario">
+            <form action="" method="" enctype="">
     
-            <label for="nombre">Nombre</label>
-            <input type="text" placeholder="Ingrese su nombre" name="nombre" class="inputTexto">
-        
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" name="nombre" class="inputTexto">
+            
+    
+    
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="Ingrese su apellido" name="apellido" class="inputTexto">
+            
+            
+                <label for="email">Email</label>
+                <input type="email" id="" placeholder="Ingrese su email" name="email" class="inputTexto">
+            
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta aquí..."></textarea>
+    
+    
+                <input type="checkbox" class="newsletter">Acepto recibir newsletter
+    
+                <input type="submit" value="Enviar formulario" class="inputTexto">
+    
+                <input type="reset" value="Resetear formulario" class="inputTexto">
+        </div>
 
+        <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1689848885717!2d-58.39924678477045!3d-34.599888180460525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9503bd7305%3A0x8458820a1c526d5!2sAv.%20Cordoba%202100%2C%20C1120%20AAP%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1652244818026!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <label for="apellido">Apellido</label>
-            <input type="text" placeholder="Ingrese su apellido" name="apellido" class="inputTexto">
-        
-        
-            <label for="email">Email</label>
-            <input type="email" id="" placeholder="Ingrese su email" name="email" class="inputTexto">
-        
-
-
-            <label for="genero">Indique su género</label>
-            <input type="radio" name= genero value="f">Femenino
-            <input type="radio" name= genero value="m"> Masculino
-            <input type="radio" name= genero value="ne"> No especifica
-
-
-            <label for="cliente" class="labelCliente">Tipo de cliente:</label>
-            <select name="cliente" id="" class="inputTexto">
-                <option value="habitual">Cliente habitual</option>
-                <option value="nuevo">Cliente nuevo</option>
-            </select>
-
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta aquí..."></textarea>
-
-
-            <input type="checkbox" class="newsletter">Acepto recibir newsletter
-
-            <input type="submit" value="Enviar formulario" class="inputTexto">
-
-            <input type="reset" value="Resetear formulario" class="inputTexto">
-
+        </div>
 
         </form>
     </section>
 
     <footer class="footer">
-        <nav>
-            <a href="./contacto.html">Contacto |</a>
-            <a href="">Redes |</a> 
-        </nav>
+        <div class="footerFlex">
+            <div class="footerNav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">INICIO </a></li>
+                        <li><a href="./preguntasfrecuentes.html">PREGUNTAS FRECUENTES </a></li>
+                        <li><a href="./contacto.html" >CONTACTO </a></li>
+                        <li><a href="./contacto.html">REDES </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerUbicacion">
+                <h6>UBICACIÓN</h6>
+                <ul>
+                    <li>Av. Cordoba 2100</li>
+                    <li>C1120</li>
+                    <li>Buenos Aires</li>
+                    <li>Argentina</li>
+                </ul>
+            </div>
+        </div>
+        <div class="ilzstudio">
+            GENEVIEVE © 2022 |  Creación de ilz studio 
+        </div>
     </footer>
 
 </body>

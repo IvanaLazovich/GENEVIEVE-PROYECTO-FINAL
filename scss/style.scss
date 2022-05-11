@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #c2b6b3;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@import "header";
+@import "footer";
+@import "index";
+@import "main";
+@import "productos";
+@import "pfrecuentes";
+@import "contacto";
+@import "mediaq";

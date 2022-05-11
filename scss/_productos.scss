@@ -1,0 +1,31 @@
+.sectionProductos {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    .nombreArticulo {
+        color: #1a1515;
+        font-size: 20px;
+        font-family: 'Forum', cursive;
+        font-weight: 400;
+        margin: 20px;
+        }   
+    .formArticulo {
+        color: #1a1515;
+        font-size: 10px;
+        font-family: 'Forum', cursive;
+        font-weight: 400;
+        margin: 10px;
+    }
+    .imgArticulo {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .sectionProductos {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}

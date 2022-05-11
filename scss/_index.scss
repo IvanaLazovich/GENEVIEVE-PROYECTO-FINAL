@@ -1,0 +1,36 @@
+.sectionNosotras{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    margin: 25px;
+    .parrafoNosotras {
+        text-align: right;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        margin: 25px 40px;
+    }
+    .imgNosotras img{
+        width: 255px;
+        height: 350px;
+        margin: 0 auto;
+        justify-items: start;
+        }
+}
+
+@media screen and (max-width: 510px){
+    .main {
+        .sectionNosotras {
+            .parrafoNosotras{
+                font-size: 20px;
+                text-align: center;
+                margin: 15px 0px;
+            }
+        }
+    }
+}
+
+
+
+
+

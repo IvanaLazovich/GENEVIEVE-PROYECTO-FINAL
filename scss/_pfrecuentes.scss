@@ -1,0 +1,41 @@
+.article {
+    color: #52423f;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 50px;
+    padding: 10px 100px;
+    .articleTitulo {
+        font-size: 45px;
+        font-family: 'Forum', cursive;
+        font-weight: 500;
+        line-height: 2;
+        background-color: #52423f;
+        color: #c2b6b3;
+    }
+    p{
+        font-size: 25px;
+    }
+    a {
+        text-decoration-style: none;
+        color: #92716c;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .sectionArticle {
+        .article{
+            font-size: 35px;
+            text-align: center;
+            margin: 25px 0px;
+            padding: 0px;
+            .articleTitulo {
+                font-size: 25px;
+            }
+            .articleParrafo {
+                font-size: 20px;
+            }
+        }
+    }
+}

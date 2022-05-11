@@ -1,0 +1,39 @@
+header { 
+    width: 100%;
+    div h1 {
+        color: #c2b6b3;
+        font-size: 40px;
+        font-family: 'Forum', cursive;
+        font-weight: 500;
+        text-align: center;
+        background-color: #52453f;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+.navMenu {
+    ul li a {
+        color:#52423f;
+        font-size: 25px;
+        font-family: 'Forum', cursive;
+        font-weight: 400;
+        text-align: left;
+        list-style: none;
+    }
+    li {
+        display: flex;
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .navMenu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
